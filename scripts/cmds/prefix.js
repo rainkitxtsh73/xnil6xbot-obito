@@ -31,7 +31,7 @@ module.exports = {
 	onStart: async function ({ message, role, args, commandName, event, threadsData, getLang }) {
 		if (!args[0]) return message.SyntaxError();
 
-		const prefixImage = "https://i.ibb.co/Zzqz5nBx/file-00000000588061f6ac814c432f6c0273.png";
+		const prefixImage = "l";
 
 		if (args[0] === "reset") {
 			await threadsData.set(event.threadID, null, "data.prefix");
@@ -103,7 +103,7 @@ module.exports = {
 📅 Date           : ${datePart.padEnd(10)}
 ╚══════════════════╝`;
 
-			const prefixImage = "https://i.ibb.co/Zzqz5nBx/file-00000000588061f6ac814c432f6c0273.png";
+			const prefixImage = "https://i.imgur.com/YeRAan7.jpeg";
 
 			return message.reply({
 				body: infoBox,
