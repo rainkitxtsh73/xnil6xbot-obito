@@ -7,7 +7,7 @@ module.exports = {
   config: {
     name: "help",
     version: "3.2",
-    author: "NTKhang // xnil6x",
+    author: "NTKhang // Tashrif",
     countDown: 5,
     role: 0,
     description: "View command information with enhanced interface",
@@ -56,7 +56,7 @@ module.exports = {
     const { threadID } = event;
     const prefix = getPrefix(threadID);
     const commandName = args[0]?.toLowerCase();
-    const bannerPath = path.join(__dirname, "assets", "20250319_111041.png");
+    const bannerPath = path.join(__dirname, "assets", "https://i.imgur.com/YeRAan7.jpeg");
 
     if (commandName === 'c' && args[1]) {
       const categoryArg = args[1].toUpperCase();
