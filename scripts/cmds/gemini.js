@@ -4,7 +4,6 @@ const baseApiUrl = async () => {
     `https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`,
   );
   return base.data.api;
-};
 
 module.exports = {
   config: {
