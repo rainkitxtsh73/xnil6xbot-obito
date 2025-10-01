@@ -9,7 +9,7 @@ module.exports = {
     author: "xnil6x",
     role: 2,
     usePrefix: false,
-    shortDescription: {
+    shortDescription {
       en: "Generate images using DALL·E 3 API"
     },
     longDescription: {
