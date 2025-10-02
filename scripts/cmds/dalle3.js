@@ -6,7 +6,7 @@ module.exports = {
   config: {
     name: "d3",
     version: "1.0",
-    author: "xnil6x",
+    author: "xnil6",
     role: 2,
     usePrefix: false,
     shortDescription {
