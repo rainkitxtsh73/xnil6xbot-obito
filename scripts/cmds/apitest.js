@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 module.exports = {
- config: {
+ config: { 
  name: "apitest",
  version: "1.0",
  author: "xnil6x",
